@@ -1,0 +1,14 @@
+proxies:
+- name: Video_NUSA-
+  server: 104.22.5.240
+  port: 443
+  type: trojan
+  password: ecb9d853-8fbc-433b-bc93-8b9035571bb8
+  network: ws
+  sni: x.comasu.my.id
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: "/trojan-ws"
+    headers:
+      Host: x.comasu.my.id
